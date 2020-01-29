@@ -1,0 +1,172 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.wrapper{
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-header{
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-header-title{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.divider{
+    margin: 10px 0;
+    height: 0;
+    border-top: 1px solid gray;
+}
+
+.my-table{
+    border-collapse: collapse;
+    border: 1px solid  #020346;
+    width: 100%;
+    color:  rgb(43, 2, 66);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.my-table th, .my-table td{
+    border: 1px solid #020346;
+    padding: 10px;
+}
+
+.my-table th{
+    background-color: #020346;
+    border: 1px solid #020346;
+    border-left:1px solid #EFF0F8;
+    border-right:1px solid #EFF0F8;
+    color: white;
+}
+
+.my-table th:first-child{
+    border-left: 1px solid #020346;
+}
+
+.my-table th:last-child{
+    border-right: 1px solid #020346;
+}
+
+.my-table tr:nth-child(even){
+    background-color: #EFF0F8;
+}
+
+.my-table tr:nth-child(odd){
+    background-color: #E2E2F6;
+}
+
+.my-table tr{
+    transition: all 0.4s ease;
+}
+
+.my-table tr:hover{
+    background-color: #C5C5FA;
+    cursor: pointer;
+}
+
+.create-form{
+    padding: 30px;
+    background-color: #EFF0F8;
+}
+
+.create-form input[type=text], input[type=date], input[type=telephone]{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    border: none;
+    border-radius: 3px;
+}
+.create-form input[type=submit]{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    font-style: italic;
+    border: none;
+    background-color: #020346;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+}
+.create-form input[type=submit]:hover{
+    background-color: #9495df;
+    color: white;
+}
+.error-message-field{
+    width: 100%;
+    padding: 25px;
+    margin-top: 20px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.pnf{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin: 200px auto;
+    color: White;
+}
+.btn-add{
+    font-size: 1rem;
+    display: inline-block;
+    padding: 15px 25px;
+    width: 220px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: White;
+    background-color: #020346;
+}
+.search-box{
+    display: inline-block;
+    margin-left: 20px;
+}
+.search-box input[type=text], .search-box input[type=submit]{
+    padding: 15px 15px;
+    border: none;
+    outline: transparent;
+}
+.search-box input[type=text]{
+    background-color: rgb(192, 240, 236);
+    border-radius: 10px 0 0 10px;
+}
+.search-box input[type=submit]{
+    background-color: rgb(4, 3, 71);
+    border-radius: 0 10px 10px 0;
+    color: white;
+    margin-left: -3px;
+    cursor: pointer;
+}
+
